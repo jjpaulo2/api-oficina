@@ -1,2 +1,9 @@
-# api-oficina
-API Rest de back-end do aplicativo de agenda da oficina de carros do meu tio. Construída com FastAPI e MongoDB.
+# API DE AGENDAMENTO DE OFICINA DE CARROS
+
+### Executando
+
+Com o auxílio do `docker-compose`, é possível subir todos os containers de uma vez só, sem muito estresse.
+
+```shell
+$ docker-compose up -d
+```
