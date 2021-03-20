@@ -21,7 +21,4 @@ EXPOSE 8000
 
 # EXECUTANDO O SERVIDOR UVICORN
 
-CMD python -m uvicorn main:app \
-    --reload \
-    --host 0.0.0.0 \
-    --port 8000
+CMD python ./server.py
