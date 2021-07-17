@@ -7,4 +7,8 @@ TAGS_METADATAS = [
         "name": "Clientes",
         "description": "Endpoints para gerenciar os clientes da oficina",
     },
+    {
+        "name": "Carros",
+        "description": "Endpoints para gerenciar os carros da oficina",
+    },
 ]

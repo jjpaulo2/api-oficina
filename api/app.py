@@ -5,6 +5,7 @@ from .settings import AppSettings
 from .settings import DatabaseSettings
 
 from .routes import clients
+from .routes import cars
 
 from .tags import TITLE
 from .tags import DESCRIPTION
@@ -30,3 +31,4 @@ fastapi.register_tortoise(
 )
 
 app.include_router(clients.router, prefix='/api')
+app.include_router(cars.router, prefix='/api')
